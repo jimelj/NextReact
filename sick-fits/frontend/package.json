@@ -82,7 +82,8 @@
             "styled-components",
             {
               "ssr": true,
-              "displayName": true
+              "displayName": true,
+              "preproccess": false
             }
           ]
         ]

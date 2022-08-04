@@ -16,11 +16,12 @@ const GlobalStyles = createGlobalStyle`
     --grey: #3a3a3a;
     --gray: var(--grey);
     --lightGrey: #e1e1e1;
-    --lightGray: (--lightGrey);
+    --lightGray: var(--lightGrey);
     --offWhite: #ededed;
     --maxWidth: 1000px;
     --bs: 0 12px 24px rgba(0,0,0,0.09);
     box-sizing: border-box;
+    font-size: 62.5%;
   }
   *, *:before, *:after {
     box-sizing: inherit;
